@@ -32,6 +32,12 @@
       <url>file://${user.home}/git/mvn-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
+  <repositories>
+    <repository>
+      <id>julman99-github</id>
+      <url>https://raw.github.com/julman99/mvn-repo/master</url>
+    </repository>
+  </repositories>
   <build>
     <plugins>
       <plugin>
